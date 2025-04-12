@@ -10,17 +10,17 @@ window.onload = function() {
 
   function excusasAlAzahar() {
     
-    let who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
-    let action = ['ate', 'peed', 'crushed', 'broke'];
-    let what = ['my homework', 'my phone', 'the car'];
-    let when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
+    let quien = ['Mi perro', 'Mi madre', 'El coche', 'Yo', 'El fontanero'];
+    let accion = ['se ha roto', 'se ha comido', 'no arranca por', 'estoy', 'viene ha cambiarme', 'tiene que ir'];
+    let que = ['mis deberes', 'la bateria', 'al hospital', 'enfermo', 'con gripe', 'la pierna', 'la caldera'];
+    let cuando = ['cuando iba a salir', 'esta mañana', 'mientras hacia ejercicio', 'ahora mismo'];
   
-    let randomWho = who[Math.floor(Math.random()*who.length)];
-    let randomAction = action[Math.floor(Math.random()*action.length)];
-    let randomWhat = what[Math.floor(Math.random()*what.length)];
-    let randomWhen = when[Math.floor(Math.random()*when.length)];
+    let randomQuien = quien[Math.floor(Math.random()*quien.length)];
+    let randomAccion = accion[Math.floor(Math.random()*accion.length)];
+    let randomQue = que[Math.floor(Math.random()*que.length)];
+    let randomCuando = cuando[Math.floor(Math.random()*cuando.length)];
 
-    return randomWho + ' ' + randomAction + ' ' + randomWhat + ' ' + randomWhen
+    return randomQuien + ' ' + randomAccion + ' ' + randomQue + ' ' + randomCuando
 
   }
 
