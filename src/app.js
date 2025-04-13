@@ -11,9 +11,9 @@ window.onload = function() {
   function excusasAlAzahar() {
     
     let quien = ['Mi perro', 'Mi madre', 'El coche', 'Yo', 'El fontanero'];
-    let accion = ['se ha roto', 'se ha comido', 'no arranca por', 'estoy', 'viene ha cambiarme', 'tiene que ir'];
-    let que = ['mis deberes', 'la bateria', 'al hospital', 'enfermo', 'con gripe', 'la pierna', 'la caldera'];
-    let cuando = ['cuando iba a salir', 'esta mañana', 'mientras hacia ejercicio', 'ahora mismo'];
+    let accion = ['se ha roto', 'se ha comido', 'no arranca por', 'estoy', 'viene a cambiarme', 'tiene que ir'];
+    let que = ['mis deberes', 'la batería', 'al hospital', 'enfermo', 'con gripe', 'la pierna', 'la caldera'];
+    let cuando = ['cuando iba a salir', 'esta mañana', 'mientras hacía ejercicio', 'ahora mismo'];
   
     let randomQuien = quien[Math.floor(Math.random()*quien.length)];
     let randomAccion = accion[Math.floor(Math.random()*accion.length)];
